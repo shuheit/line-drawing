@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Line Drawing</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div id="main">
+    <h1>Line Drawing</h1>
+    <canvas id="canvas" width="600" height="450"></canvas>
+    <div class="radio">
+      <input type="radio" id="radio1" name="radio" checked="checked"><label for="radio1">Finger Paint</label>
+      <input type="radio" id="radio2" name="radio"><label for="radio2">Straight Line</label>
+    </div>
+    <button type="button" id="clear">Clear</button>
+  </div>
+
+  <script src="js/lib/jquery-2.1.1.min.js"></script>
+  <script src="js/lib/createjs-2013.12.12.min.js"></script>
+  <script src="js/graphic/line.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
