@@ -11,6 +11,7 @@ function initCanvas() {
     isMouseDown=false;
     clickX = null;
     clickY = null;
+    positions = [];
 
     stage.on("stagemousedown", function(event) {
         isMouseDown=true;
